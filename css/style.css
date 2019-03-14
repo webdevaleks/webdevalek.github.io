@@ -40,6 +40,8 @@ header{
     color: #072b6f;
     font-size: 18px;
     font-weight: 700;
+    text-align: center;
+    padding-top: 14px;
     
 }
 
@@ -135,12 +137,14 @@ footer{
     color: #fff;
     padding: 12px 40px;
     font-size: 18px;
+    text-decoration: none;
 }
 
 @media (max-width: 1200px){
     .header-pretitle{
         padding-top: 60px;
         font-size: 18px;
+ }
 }
 
 @media (max-width: 992px)  {
