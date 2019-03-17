@@ -2,113 +2,126 @@
 <html lang="ru">
 
 <head>
-	<!-- Важная техническая информация для браузера -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Важная техническая информация для браузера -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Информация об Авторе и описание проекта -->
-	<meta name="description" content="Сайт разработчика Алексея Жезваева">
-	<meta name="auyhor" content="Алексей Жезваев">
+    <!-- Информация об Авторе и описание проекта -->
+    <meta name="description" content="Сайт разработчика Алексея Жезваева">
+    <meta name="auyhor" content="Алексей Жезваев">
 
-	<!-- Иконка, которая будет на вкладке в браузере -->
-	<link rel="icon" href="/favicon.ico">
-	<!-- Заголовок на вкладке в браузере -->
-	<title>Алексей Жезваев - создание сайтов</title>
-	<!--Шрифты от Google-->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
-	<!-- Подключаем наш файл со стилями, который находится в папке css-->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <!-- Иконка, которая будет на вкладке в браузере -->
+    <link rel="icon" href="/favicon.ico">
+    <!-- Заголовок на вкладке в браузере -->
+    <title>Алексей Жезваев - создание сайтов</title>
+    <!--Шрифты от Google-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+    <!-- Подключаем наш файл со стилями, который находится в папке css-->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 
 <body>
 
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-7">
-					<img class="header-img" src="img/main-img.png" alt="Монитор">
-				</div>
-				<!-- /.col-7 -->
-				<div class="col-lg-5">
-					<p class="header-pretitle">Веб-разработчик</p>
-					<h1 class="header-title">Алексей Жезваев</h1>
-					<p class="header-subtitle">Верстка на HTML/CSS <br>
-						Разработка сайтов под ключ</p>
-					<div class="header-button-block">
-						<a href="https://vk.me/aleekhand" class="header-button">Связаться</a>
-						<small>*Это бесплатно</small>
-					</div>
-				</div>
-				<!-- /.col-5 -->
-			</div>
-			<!-- /.row -->
-		</div>
-		<!--/ container-->
-	</header>
-	<section class="portfolio">
-		<div class="container">
-			<div class="portfolio-block">
-				<h2 class="portfolio-title">Портфолио</h2>
-				<p class="portfolio-subtitle">Мои работы</p>
-				<div class="row">
-					<div class="col-md-6">
-						<div class="portfolio-col1"><img src="/img/portfolio-img-1.jpg" alt="Газпром">
-							<h3>внутренний университет «Газпром нефти»</h3>
-							<p class="portfolio-text">У «Газпром нефти» есть внутренний Корпоративный университет для
-								сотрудников. Это
-								настоящий
-								университет, где сотрудники проходят обучение у внутренних тренеров компании или у
-								специально приглашенных лекторов и экспертов....</p>
-							<a href="#">Смотреть работу</a>
-						</div>
-					</div>
-					<!-- /.col-6 -->
-					<div class="col-md-6">
-						<div class="portfolio-col2"><img src="/img/portfolio-img-2.jpg" alt="Платежная система">
-							<h3>Сайт платежной системы «Мир»</h2>
-								<p class="portfolio-text">Обновленная версия сайта знакомит посетителей с компаниями,
-									уже принимающими карты к
-									оплате,
-									и приглашает всех остальных присоединиться к проекту...</p>
-								<a href="#">Смотреть работу</a>
-						</div>
-					</div>
-					<!-- /.col-6 -->
-				</div>
-			</div>
-		</div>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <img class="header-img wow fadeInLeftBig" src="img/main-img.png" alt="Монитор">
+                </div>
+                <!-- /.col-7 -->
+                <div class="col-lg-5">
+                    <p class="header-pretitle wow fadeInRightBig" data-wow-delay="0.1s">Веб-разработчик</p>
+                    <h1 class="header-title wow fadeInRightBig" data-wow-delay="0.2s">Алексей Жезваев</h1>
+                    <p class="header-subtitle wow fadeInRightBig" data-wow-delay="0.3s">Верстка на HTML/CSS <br>
+                        Разработка сайтов под ключ</p>
+                    <div class="header-button-block wow fadeInRightBig" data-wow-delay="0.4s">
+                        <a href="https://vk.me/aleekhand" class="header-button">Связаться</a>
+                        <small>*Это бесплатно</small>
+                    </div>
+                </div>
+                <!-- /.col-5 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!--/ container-->
+    </header>
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio-block wow fadeIn">
+                <h2 class="portfolio-title">Портфолио</h2>
+                <p class="portfolio-subtitle">Мои работы</p>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="portfolio-col1"><img src="/img/portfolio-img-1.jpg" alt="Газпром">
+                            <h3>внутренний университет «Газпром нефти»</h3>
+                            <p class="portfolio-text">У «Газпром нефти» есть внутренний Корпоративный университет для
+                                сотрудников. Это
+                                настоящий
+                                университет, где сотрудники проходят обучение у внутренних тренеров компании или у
+                                специально приглашенных лекторов и экспертов....</p>
+                            <a href="#">Смотреть работу</a>
+                        </div>
+                    </div>
+                    <!-- /.col-6 -->
+                    <div class="col-md-6">
+                        <div class="portfolio-col2"><img src="/img/portfolio-img-2.jpg" alt="Платежная система">
+                            <h3>Сайт платежной системы «Мир»</h2>
+                                <p class="portfolio-text">Обновленная версия сайта знакомит посетителей с компаниями,
+                                    уже принимающими карты к
+                                    оплате,
+                                    и приглашает всех остальных присоединиться к проекту...</p>
+                                <a href="#">Смотреть работу</a>
+                        </div>
+                    </div>
+                    <!-- /.col-6 -->
+                </div>
+            </div>
+        </div>
 
-	</section>
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<h3 class="footer-author">Алексей Жезваев</h3>
-					<p class="footer-text">Разработка сайтов под ключ</p>
-				</div>
-				<div class="col-md-4">
-					<div class="social-block">
-						<p>Подпишитесь:</p>
-						<a href="#"><img src="/img/socials/facebook-logo-button.png" alt="Фэйсбук"></a>
-						<a href="#"><img src="/img/socials/telegram-symbol.png" alt="Телеграм"></a>
-						<a href="#"><img src="/img/socials/vk-social-logotype.png" alt="Вконтакте"></a>
-						<a href="#"><img src="/img/socials/youtube-symbol.png" alt="Ютуб"></a>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="footer-cta-block">
-						<p class="footer-cta">Напишите мне:</p>
-						<a href="https://vk.me/aleekhand" class="footer-button">Написать</a>
-					</div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 class="footer-author">Алексей Жезваев</h3>
+                    <p class="footer-text">Разработка сайтов под ключ</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-block">
+                        <p>Подпишитесь:</p>
+                        <a class="wow fadeInDownBig" data-wow-delay="0.1s"
+                            href="https://www.facebook.com/profile.php?id=100011390669298"><img
+                                src="/img/socials/facebook-logo-button.png" alt="Фэйсбук"></a>
+                        <a class="wow fadeInDownBig" data-wow-delay="0.2s" href="#"><img
+                                src="/img/socials/telegram-symbol.png" alt="Телеграм"></a>
+                        <a class="wow fadeInDownBig" data-wow-delay="0.3s" href="https://vk.com/aleekhand"><img
+                                src="/img/socials/vk-social-logotype.png" alt="Вконтакте"></a>
+                        <a class="wow fadeInDownBig" data-wow-delay="0.4s" href="#"><img
+                                src="/img/socials/youtube-symbol.png" alt="Ютуб"></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-cta-block">
+                        <p class="footer-cta">Напишите мне:</p>
+                        <a href="https://vk.me/aleekhand" class="footer-button">Написать</a>
+                    </div>
 
-				</div>
-			</div>
-		</div>
+                </div>
+            </div>
+        </div>
 
-	</footer>
+    </footer>
+
+    <script src="/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
 </body>
 
 </html>
